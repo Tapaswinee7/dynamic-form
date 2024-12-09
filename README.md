@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Installation
+Follow these steps to set up the project on your local machine.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prerequisites
+You should have Node.js installed on your machine.
 
-## Available Scripts
+Clone the repository
+git clone https://github.com/Tapaswinee7/dynamic-form.git
 
-In the project directory, you can run:
+Navigate into the project directory
+cd dynamic-form
 
-### `npm start`
+Install dependencies
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After installing the dependencies, you can run the app locally using:
+npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This will start the development server and open the app in your browser. The app will usually be available at http://localhost:3000/.
 
-### `npm test`
+Running Tests
+The project comes with pre-configured tests using Jest and React Testing Library. To run the tests, use the following command:
+npm test
+This will run all the unit tests and show the results in the terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+DynamicForm React App:
+This is a React-based dynamic form application that renders a form based on a dynamic configuration. The form includes fields like name, email, phone number, country, and state, with built-in validation rules (e.g., required fields, pattern matching) and conditional field rendering.
 
-### `npm run build`
+Features:
+-Dynamic Field Rendering: Form fields are dynamically rendered based on a given configuration.
+-Conditional Field Visibility: Some fields (like "State") are displayed or hidden based on the value of other fields (like "Country").
+-Form Validation: Fields are validated based on the provided rules (e.g., required fields, regex patterns for email and phone numbers).
+-Form Reset: A button to reset the form and clear all input values.
+-Success Message: A success message is shown upon form submission if all fields are valid.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technologies Used:
+-React: JavaScript library for building user interfaces.
+-React Testing Library: For testing the application.
+-Jest: Testing framework to run tests.
+-CSS: To style the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
